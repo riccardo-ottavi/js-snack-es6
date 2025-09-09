@@ -19,3 +19,17 @@ for (let i = 0; i < bikes.length; i++) {
 }
 
 console.log("La bici che pesa di meno è: " +lighterBike.name, (lighterBike.weigth/1000) + "kg");
+
+//snack 2 
+
+//inizializzo array di squadre 
+const teams = [
+    {name: "Atalanta", points: 0, fouls: 0 },
+    {name: "Roma", points: 0, fouls: 0 },
+    {name: "Milan", points: 0, fouls: 0 },
+    {name: "Inter", points: 0, fouls: 0 },
+    {name: "Napoli", points: 0, fouls: 0 },
+]
+//popolo i campi con valori casuali
+
+//creo un array in cui stampare le informazioni richieste
