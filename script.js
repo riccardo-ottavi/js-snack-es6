@@ -31,5 +31,15 @@ const teams = [
     {name: "Napoli", points: 0, fouls: 0 },
 ]
 //popolo i campi con valori casuali
+for (let i = 0; i < teams.length; i++) {
+    teams[i].points = Math.random() *40;
+    teams[i].fouls = Math.random() *40;
+    teams[i].points = teams[i].points.toFixed(0);
+    teams[i].fouls = teams[i].fouls.toFixed(0);
+}
+//debug
+for (let i = 0; i < teams.length; i++) {
+    console.log(teams[i].name, teams[i].points, teams[i].fouls);
+}
 
 //creo un array in cui stampare le informazioni richieste
