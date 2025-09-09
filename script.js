@@ -43,3 +43,11 @@ for (let i = 0; i < teams.length; i++) {
 }
 
 //creo un array in cui stampare le informazioni richieste
+let outArr = teams;
+for (let i = 0 ; i< outArr.length; i++) {
+    delete teams[i].points;
+}
+//lo mando a schermo in console
+for (let i = 0; i < outArr.length; i++) {
+    console.log(teams[i].name, teams[i].fouls);
+}
